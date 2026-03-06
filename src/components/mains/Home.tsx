@@ -62,7 +62,7 @@ export default function Home(){
         <StyledMain>
             <StyledHeading>Home</StyledHeading>
             <StyledInfo>
-                <StyledProfilePic src="../../../public/img.png" alt="Stephanie Argueta" id="profile"/>
+                <StyledProfilePic src="/img.png" alt="Stephanie Argueta" id="profile"/>
                 <StyledP>
                     Hi! I’m Stephanie👋. I've always been curious and have a passion for
                     building tech that makes a positive impact on people's lives. Through my
