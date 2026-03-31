@@ -1,73 +1,68 @@
-# React + TypeScript + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built to showcase my projects, technical skills, and experience as a software engineer. The site highlights my work across full-stack development, machine learning, and distributed systems.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* 📄 **Responsive Design** — Optimized for desktop and mobile
+* ⚛️ **Built with React + TypeScript**
+* 🎨 **Styled with Styled Components and CSS**
+* 🔗 **Project Showcase** — Highlights key academic and personal projects
+* 🧠 **Technical Skills Section** — Covers languages, frameworks, and tools
+* 📬 **Contact Section** — Easy ways to connect
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend:** React, TypeScript, HTML, CSS
+* **Routing:** React Router
+* **Styling:** Styled Components
+* **Tools:** Git, GitHub, Vite
+* **Concepts:** Responsive design, component-based architecture
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+src/
+  components/   # Reusable UI components
+  mains/        # Main content sections (Home, Projects, etc.)
+  assets/       # Images and static files
+  styles/       # Styling files
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 💻 Getting Started
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+To run the project locally:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+git clone https://github.com/ssva179/Personal-Portfolio.git
+cd your-repo-name
+npm install
+npm run dev
 ```
+
+Then open:
+👉 http://localhost:5173
+
+## 🌍 Live Site
+
+Check out the deployed website here:
+👉 [MyWebsite](https://mp-3-henna-seven.vercel.app/)
+
+## 📌 Purpose
+
+This website was created to:
+
+* Showcase my technical projects and experience
+* Demonstrate my frontend development skills
+* Serve as a central hub for recruiters and collaborators
+
+## 📫 Contact
+
+Feel free to reach out!
+
+* LinkedIn: https://www.linkedin.com/in/stephanieargueta/
+
+---
+
+⭐ If you like the project, feel free to star the repo!
+
